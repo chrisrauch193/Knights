@@ -9,11 +9,11 @@ class SelfDrivingCarTest(unittest.TestCase):
 
     def setUp(self):
 
-        self.playground = Playground(7)
+        self.playground = Playground(8)
         print(self.playground.board.toString())
 
 
 if __name__ == '__main__':
-    playground = Playground(7)
+    playground = Playground(8)
     playground.outputFinalState("test1")
     unittest.main()
