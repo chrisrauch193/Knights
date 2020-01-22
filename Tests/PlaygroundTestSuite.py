@@ -14,6 +14,9 @@ class SelfDrivingCarTest(unittest.TestCase):
 
 
 if __name__ == '__main__':
+    # Example game test run printing board after each move
     playground = Playground(8)
     playground.outputFinalState("test1")
+
+    # Running currently empty test suite
     unittest.main()
